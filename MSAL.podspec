@@ -1,9 +1,9 @@
 {
   "name": "MSAL",
-  "version": "0.2.4",
+  "version": "0.1.1",
   "summary": "Microsoft Access Layer POD.",
   "description": "The MSAL library preview for iOS gives your app the ability to begin using the Microsoft Cloud by supporting Microsoft Azure Active Directory and Microsoft Accounts in a converged experience using industry standard OAuth2 and OpenID Connect. The library also supports Microsoft Azure B2C for those using our hosted identity management service.\n\nThe source is branched from MSAL official master 0.1.1 at time of speaking. The pod version is just an internal version.\n\nNote that for the preview, only iOS is supported with this pod.",
-  "homepage": "https://github.com/barger27/microsoft-authentication-library-for-objc.git",
+  "homepage": "https://github.com/barger27/microsoft-authentication-library-for-objc",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
