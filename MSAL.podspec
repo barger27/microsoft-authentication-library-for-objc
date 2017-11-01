@@ -17,11 +17,9 @@ Pod::Spec.new do |s|
                        DESC
 
   s.homepage         = 'https://github.com/barger27/microsoft-authentication-library-for-objc.git'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'barger27' => 'Ryan@Barger.com' }
   s.source           = { :git => 'https://github.com/barger27/microsoft-authentication-library-for-objc.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.3'
 
@@ -30,15 +28,5 @@ Pod::Spec.new do |s|
   s.source_files = 'MSAL/AzureSource/MSAL/src/**/*.{h,m}', 'MSAL/Classes/*.{h,m}'
 
   s.exclude_files = 'MSAL/AzureSource/MSAL/src/**/mac/*', 'MSAL/AzureSource/MSAL/src/cache/mac/*', 'MSAL/AzureSource/MSAL/src/public/mac/*', 'MSAL/AzureSource/MSAL/src/ui/mac/*'
-  
-  # s.resource_bundles = {
-  #   'MSAL' => ['MSAL/Assets/*.png']
-  # }
 
   s.xcconfig     = { 'OTHER_LDFLAGS' => '-ObjC' }
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
-
-  s.prepare_command = <<-CMD
-      git submodule update --init --recursive
-  CMD
